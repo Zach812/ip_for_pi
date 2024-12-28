@@ -5,3 +5,5 @@
 4. Reboot: "sudo reboot"
 5. Make it run automatically on start up: "sudo nano /etc/rc.local"
 More Info: https://raspberrytips.com/autostart-a-program-on-boot/
+6. Allow executable: chmod +x <PATH_TO_SCRIPT>
+
