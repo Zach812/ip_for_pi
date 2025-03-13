@@ -48,7 +48,6 @@ def findIP(lcd):
 
 i = 0
 while timeout > 0:
-    print(timeout)
     lcd.message(f"Finding IP{generateLooking(i % 3)}", 2)
     if findInternet(lcd):
         if findIP(lcd):
